@@ -36,3 +36,11 @@ Los objetos contienen
 * [] window.location  devuelve la ruta de la página
  
 * [] Para agregar soporte a tildes y letras especiales puedes usar dentro de head
+
+
+### 5
+* [] Depurar es arreglar un error dentro de un código. Esto es importante porque cuando programas la mayor parte del tiempo estarás depurando para que tu código corra bien.
+
+* []Cuando las funciones son parte de un objeto se llaman métodos.
+
+* []console.log deja mensajes dentro de la consola.

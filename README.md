@@ -22,3 +22,10 @@
 *[]	Puedes usar la función prompt para recibir datos del usuario.
  
 *[]	Concatenar es unir cadenas de texto a variables
+
+### 4
+Los objetos contienen
+ 
+*[]	Métodos: funciones dentro de un objeto
+*[]	Atributo o propiedad: variables internas que almacenan valores
+

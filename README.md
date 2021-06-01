@@ -90,3 +90,11 @@ se les llaman atributos.
 * [] lineTo: traza una línea hasta las coordenadas especificadas.
 * [] stroke: función que dibuja la línea con un estilo especificado.
 * [] closePath: cierra el camino del trazo, es como levantar el lápiz.
+
+
+### 10
+* [] Los eventos son funciones que suceden cuando algo ocurre,  sucesos cómo un click, pulsar una tecla, colocar el mouse sobre un botón, etc.
+
+* [] Cuando queremos enviar información a un servidor podemos usar un formularios
+
+ * [] En JavaScript puedes agregar un manejador de eventos con element.addEventListener('event', function).

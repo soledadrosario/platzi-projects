@@ -110,3 +110,12 @@ se les llaman atributos.
 * [] Math.ceil() devuelve el siguiente número entero arriba de los decimales
 
 * [] Math.random() devuelve un número aleatorio de 0 a 0.999..
+
+### 13
+* [] Debemos agregar la imagen en el evento load del objeto.
+
+ 
+* [] Debemos usar el método .drawImage del canvas para insertar la imagen.
+ 
+* [] Canvas dibuja siempre encima del último objeto.
+

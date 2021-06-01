@@ -119,3 +119,11 @@ se les llaman atributos.
  
 * [] Canvas dibuja siempre encima del último objeto.
 
+### 14
+* [] Para calcular el módulo puedes usar %
+ 
+* [] Los programas dividen los programas complejos en problemas pequeños
+ 
+* [] La operación lógica and (y) se escribe en JavaScript con &&
+
+

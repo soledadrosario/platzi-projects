@@ -98,3 +98,15 @@ se les llaman atributos.
 * [] Cuando queremos enviar información a un servidor podemos usar un formularios
 
  * [] En JavaScript puedes agregar un manejador de eventos con element.addEventListener('event', function).
+
+ ### 11 
+ * [] Un programador divide los grandes problemas en problemas más pequeños.
+ 
+ * [] Todo manejador de eventos devuelve un objeto con los detalles del evento
+
+ ### 12 
+* [] Math.floor() devuelve el número entero por debajo de los decimales.
+
+* [] Math.ceil() devuelve el siguiente número entero arriba de los decimales
+
+* [] Math.random() devuelve un número aleatorio de 0 a 0.999..

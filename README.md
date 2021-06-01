@@ -13,3 +13,12 @@
 * [] Javacript no es lo mismo que java 
 * [] Alaert es un metodo que dispara algo
 * [] Los archivos html funcionan con etiquetas
+
+### 3
+*[]	La consola nos sirve para saber el estado de las variables
+ 
+*[]	Cuando tienen un valor en comillas("") es un texto
+ 
+*[]	Puedes usar la función prompt para recibir datos del usuario.
+ 
+*[]	Concatenar es unir cadenas de texto a variables

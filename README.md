@@ -127,3 +127,26 @@ se les llaman atributos.
 * [] La operación lógica and (y) se escribe en JavaScript con &&
 
 
+### 15
+
+* [] En Javascript existe la programación orientada a objetos (OOP en sus siglas en inglés), la cual se crea a partir de una clase, donde se define las características del objeto o atributos y sus capacidades o métodos.
+Así como otros lenguajes, este concepto conlleva lo siguiente:
+•	Objeto
+Una instancia de una Clase.
+•	Propiedad
+Una característica del Objeto, como el color.
+•	Método
+Una capacidad del Objeto, como caminar.
+•	Constructor
+Es un método llamado en el momento de la creación de instancias.
+•	Herencia
+Una Clase puede heredar características de otra Clase.
+•	Encapsulamiento
+Una Clase sólo define las características del Objeto, un Método sólo define cómo se ejecuta el Método.
+•	Abstracción
+La conjunción de herencia compleja, métodos y propiedades que un objeto debe ser capaz de simular en un modelo de la realidad.
+•	Polimorfismo
+Diferentes Clases podrían definir el mismo método o propiedad.
+
+
+

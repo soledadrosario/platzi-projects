@@ -37,10 +37,35 @@ Los objetos contienen
  
 * [] Para agregar soporte a tildes y letras especiales puedes usar dentro de head
 
+* [] Cuándo quieres depurar un programa puedes usar console.log para ver mensajes en la consola
 
-### 5
+
+### 6
 * [] Depurar es arreglar un error dentro de un código. Esto es importante porque cuando programas la mayor parte del tiempo estarás depurando para que tu código corra bien.
 
 * []Cuando las funciones son parte de un objeto se llaman métodos.
 
 * []console.log deja mensajes dentro de la consola.
+
+
+### 7
+
+* [] “document”, “window” y “console” son objetos. (Por cierto, el objeto "window"
+no tiene nada que ver con el sistema operativo)
+
+* [] Los objetos pueden ser usados o modificados con funciones. Por ejemplo,
+document.write(“hola”) console.log(…)
+
+* [] Pero para mostrar o usar información de un objeto (es decir las variables),
+entonces se usan los atributos. Por ejemplo:
+window.location;
+freddy.colordeojos
+freddy.weight
+freddy.peso
+freddy.eyescolor
+
+* [] Cuando los objetos van acompañados de funciones se les llaman métodos.
+Y cuando los objetos van a compañados de sus variables(información interna)
+se les llaman atributos.
+
+* [] console.log es un escáner, y te dice toda la información que contiene un objeto.

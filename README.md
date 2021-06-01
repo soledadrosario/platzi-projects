@@ -69,3 +69,13 @@ Y cuando los objetos van a compañados de sus variables(información interna)
 se les llaman atributos.
 
 * [] console.log es un escáner, y te dice toda la información que contiene un objeto.
+
+### 8
+
+* [] Para dibujar usamos JS para darle las instrucciones y los canvas funcionan con coordenadas
+ 
+* [] Solamente llegando al canvas no podemos dibujar, debemos crear un contexto, ahora sí, mira cómo dibujar con HTML y JavaScript
+
+* [] ID es el identificador con el que podemos encontrar etiquetas con JavaScript, los nombres siguen las mismas reglas que las variables
+ 
+* []Puedes obtener un elemento con su id buscándolo con document.getElementById('nombre_id');

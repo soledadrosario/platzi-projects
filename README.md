@@ -79,3 +79,14 @@ se les llaman atributos.
 * [] ID es el identificador con el que podemos encontrar etiquetas con JavaScript, los nombres siguen las mismas reglas que las variables
  
 * []Puedes obtener un elemento con su id buscándolo con document.getElementById('nombre_id');
+
+
+### 9
+* [] getContext: es un método del objeto Canvas que obtiene el área dónde se va a dibujar.
+
+* [] beginPath: un método que inicia un trazo.
+* [] strokeStyle: variable para guardar el color de la línea.
+* [] moveTo: método para mover el lápiz desde dónde va a dibujar la línea en las coordenadas especificadas.
+* [] lineTo: traza una línea hasta las coordenadas especificadas.
+* [] stroke: función que dibuja la línea con un estilo especificado.
+* [] closePath: cierra el camino del trazo, es como levantar el lápiz.

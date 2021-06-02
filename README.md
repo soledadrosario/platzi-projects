@@ -225,3 +225,11 @@ Se identifica con la pata más corta
 * [] Fotocelda: Es un dispositivo que es capaz de producir una pequeña cantidad de corriente eléctrica al ser expuesta a la luz. Entre sus aplicaciones típicas están las de controlar el encendido-apagado de una lámpara, etc…
 
 * [] Servos: Son motores que se mueven muy poco, en cantidad de grados. El de freddy por ejemplo se mueve desde 0 a 180 grados
+
+
+### 21
+* [] Los servos se mueven dependiendo del voltaje que se le envié, sus sabes son el negativo GND positivo V y el tercer cable que le manda la señal para decirle hasta donde moverse dependiendo de la señal que le mande el arduino.
+
+* [] Foto resistor: Resistencia que resiste mas o menos voltaje dependiendo de tener mas o menos luz, se conecta a algún puerto de entrada del arduino lo cuales son los puertos análogos 0, A1, etc y con una resistencia para no quemar el foto resistor.
+
+* [] En los servos normalmente el café es negativo, el rojo positivo y el amarillo datos.

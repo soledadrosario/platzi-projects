@@ -205,3 +205,23 @@ Magia Pura!!!
 Se identifica con la pata más larga
 Cátodo: Parte negativa (-)
 Se identifica con la pata más corta
+
+
+### 20
+* [] Para programar un arduino con javascript debemos instalar un framework o libreria en arduino (serie de instrucciones en C que le permiten al arduino conectarse con node JS y JS)
+
+* [] JAVASCRIPT DEL NAVEGADOR (FRONTEND) NO NOS SIRVE PORQUE EL JS DEL NAVEGADOR ESTA ATRAPADO EN EL NAVEGADOR SOLO CORRE LO QUE EL NAVEGADOR PUEDE VER Y LOS NAVEGADORES NO PUEDEN VER EL PUERTO USB
+
+* [] johnny_five: Es una libreria para conectarse yb programar arduinos, http://johnny-five.io/
+
+* [] standardfirmata: Es el firmware que me permite que arduino se conecte a johnny - five, node js.
+
+* [] Firmware: Es la “union” entre el hardware y el software
+
+* [] Board es la funcion que me trae toda la coleccion entre js y nuestro arduino
+
+* [] blink (ms): Funcion ya preparada que te permite parpadear.
+
+* [] Fotocelda: Es un dispositivo que es capaz de producir una pequeña cantidad de corriente eléctrica al ser expuesta a la luz. Entre sus aplicaciones típicas están las de controlar el encendido-apagado de una lámpara, etc…
+
+* [] Servos: Son motores que se mueven muy poco, en cantidad de grados. El de freddy por ejemplo se mueve desde 0 a 180 grados

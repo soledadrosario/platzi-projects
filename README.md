@@ -186,3 +186,13 @@ Un servidor es un ordenador encargado de suministrar información a una serie de
 Usamos el comando ipconfig para saber nuestra direccion IP
 * [] ¿que es la IP?
 Es el numero que identifica a un dispositivo en una red interna o externa.
+
+### 18
+* [] Los circuitos electrónicos son la base de la tecnología moderna
+Electricidad => Son el flujo constante de electrones a través de un cable. Se mide en voltaje y amperaje
+Voltio => Intensidad con que la corriente se mueve por el cable.
+Resistencia => Controla la intensidad de la corriente eléctrica, son medidas en Ohmios.
+Circuito digital => Convierte la electricidad en 0 y 1.
+Memoria RAM => Almacena los 0 y 1 mientras tenga energía
+Discos Duros => Almacena los 0 y 1 aun sin energía
+Magia Pura!!!

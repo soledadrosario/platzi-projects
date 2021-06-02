@@ -233,3 +233,43 @@ Se identifica con la pata más corta
 * [] Foto resistor: Resistencia que resiste mas o menos voltaje dependiendo de tener mas o menos luz, se conecta a algún puerto de entrada del arduino lo cuales son los puertos análogos 0, A1, etc y con una resistencia para no quemar el foto resistor.
 
 * [] En los servos normalmente el café es negativo, el rojo positivo y el amarillo datos.
+
+
+### codigos del curso
+Realizando funciones para el código.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+</head>
+<body>
+    <script src="fizz.js"></script>
+</body>
+</html>
+generar(100);
+
+function generar(numeros){
+    for(var i = 1; i <= numeros; i++){
+        if(esDivisible(i, 3)){
+            document.write("Fizz");
+        }
+        if(esDivisible(i, 5)){
+            document.write("Buzz");
+        }
+        if(!esDivisible(i, 3) && !esDivisible(i, 5)){
+            document.write(i);
+        }
+        document.write("<br/>");
+    }
+}
+
+function esDivisible(num, divisor){
+    if(num % divisor == 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+

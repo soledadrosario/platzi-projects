@@ -351,3 +351,57 @@ function entregarDinero()
   dinero = parseInt(t.value);
 
   for(var b of caja)
+
+
+### 3
+{
+    if(dinero > 0)
+    {
+      div = Math.floor(dinero / b.valor);
+
+      if(div > b.cantidad)
+      {
+        papeles = b.cantidad;
+      }
+      else
+      {
+        papeles = div;
+      }
+      entregado.push( new Billete(b.valor, papeles) );
+      dinero -= (b.valor * papeles);
+
+      b.cantidad -= papeles;
+    }
+  }
+
+  if(dinero > 0)
+  {
+    resultado.innerHTML = "Soy un cajero <strong>malo</strong>, he sido <strong>malo</strong> y no puedo darte esa cantidad :( <br /><hr />";
+  }
+  else
+  {
+    resultado.innerHTML += "<p>Retiraste:<br /></p>";
+
+    for(var e of entregado)
+    {
+      if(e.cantidad > 0)
+      {
+        for(var bi = 1; bi <= e.cantidad ;bi++)
+        {
+          resultado.innerHTML += "<img src=" + e.imagen.src + " />" + "<br /><hr />";
+        }
+      }
+    }
+  }
+}
+
+function existencia()
+{
+  var total = 0;
+
+  for(var bi of caja)
+  {
+    total += bi.valor * bi.cantidad;
+  }
+  alert("La cantidad actual de dinero es de " + total + "$COP");
+}

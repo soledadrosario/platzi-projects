@@ -165,3 +165,24 @@ Diferentes Clases podrían definir el mismo método o propiedad.
 * [] Frontend, son las tecnologías que corren en el navegador, HTML, CSS y JavaScript
 
 * [] A un grupo de tecnologías se les conoce como Stack
+
+### 17
+* [] NodeJS es un runtime para poder correr JavaScript sin un navegador.
+Comando usados en la consola de windows
+dir (visualizar carpetas y directorios)
+cd (Ingresar a un directorio)
+ipconfig (Visualizar la configuracion de red del computador)
+ctrl + c para salir de nodejs
+$ indica que hay una terminal.
+-g (Lo usamos para hacer la instalacion global “No es buena pratica”).
+//
+* [] El stack que vamos a utilizar para programar del lado del servidor es node pero este necesita un framework (la libreria que le va permitir crear aplicaciones web.) usaremos la libreria express.
+* [] ¿que es un framework?
+Un framework es un conjunto de funcionalidades empaquetadas para poder realizar cosas, por ejemplo Django es un framework de python para hacer sitios web de forma rápida. (Es decir una estructura predefinida para construir algo marcando limites y una manera de trabajar.)
+* [] ¿Qué es una bibloteca?
+Conjunto de codigo que te ayuda hacer algo.
+* [] ¿Que es un servidor?
+Un servidor es un ordenador encargado de suministrar información a una serie de clientes, que pueden ser tanto personas como otros dispositivos conectados a él. La información que puede transmitir es múltiple y variada: desde archivos de texto, imagen o vídeo y hasta programas informáticos, bases de datos, etc.
+Usamos el comando ipconfig para saber nuestra direccion IP
+* [] ¿que es la IP?
+Es el numero que identifica a un dispositivo en una red interna o externa.

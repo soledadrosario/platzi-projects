@@ -273,3 +273,81 @@ function esDivisible(num, divisor){
 }
 
 
+
+### 2
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cajero automático</title>
+  </head>
+  <body>
+    <h1>Bienvenido a tu Bank E! :D</h1>
+    <p>Aquí podrás retirar tu dinero de <strong>tu cuenta bancaria :)</strong></p>
+    <p>
+      <img src="cajerobanke.jpg" />
+    </p>
+    <h2>Por favor, ingresa la cantidad de dinero que quieres retirar en pesos colombianos:</h2>
+    <p>
+      <input type="number" id="dinero" />
+      <input type="button" value="Extraer" id="extraer" />
+      <p>
+        <br />
+        <input type="button" value="Consultar Saldo" id="cantidad" />
+        <input type="button" value="Refrescar Cajero" onclick="javascript:window.location.reload();"/>
+      </p>
+    </p>
+    <p id="resultado"></p>
+    <script src="cajero.js"></script>
+  </body>
+</html>
+JavaScript
+class Billete
+{
+  constructor(v, c)
+  {
+    this.valor = v;
+    this.cantidad = c;
+    this.imagen = new Image();
+    this.imagen.src = imagenes[this.valor];
+  }
+}
+
+var imagenes = [];
+imagenes["100000"] = "100mil.jpg";
+imagenes["50000"] = "50mil.jpg";
+imagenes["20000"] = "20mil.jpg";
+imagenes["10000"] = "10mil.jpg";
+imagenes["5000"] = "5mil.jpg";
+imagenes["2000"] = "2mil.jpg";
+imagenes["1000"] = "1mil.jpg";
+
+var caja = [];
+caja.push( new Billete(100000, 5) );
+caja.push( new Billete(50000, 5) );
+caja.push( new Billete(20000, 5) );
+caja.push( new Billete(10000, 10) );
+caja.push( new Billete(5000, 15) );
+caja.push( new Billete(2000, 15) );
+caja.push( new Billete(1000, 10) );
+
+var entregado = [];
+
+var dinero;
+var div;
+var papeles;
+
+var cantidad = document.getElementById("cantidad");
+var resultado = document.getElementById("resultado");
+var b = document.getElementById("extraer");
+
+b.addEventListener("click", entregarDinero);
+cantidad.addEventListener("click", existencia);
+
+function entregarDinero()
+{
+  resultado.innerHTML = "";
+  var t = document.getElementById("dinero");
+  dinero = parseInt(t.value);
+
+  for(var b of caja)

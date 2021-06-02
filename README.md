@@ -196,3 +196,12 @@ Circuito digital => Convierte la electricidad en 0 y 1.
 Memoria RAM => Almacena los 0 y 1 mientras tenga energía
 Discos Duros => Almacena los 0 y 1 aun sin energía
 Magia Pura!!!
+
+
+### 19
+* [] El LED es un diodo y está formado por ánodo y cátodo
+
+Ánodo: Parte positiva (+)
+Se identifica con la pata más larga
+Cátodo: Parte negativa (-)
+Se identifica con la pata más corta
